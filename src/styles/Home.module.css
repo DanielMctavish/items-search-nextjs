@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.searchfield{
+  background: blue;
+}
+
+.itemsDisplay{
+  position: absolute;
+  top: 20vh;
+  width: 80%;
+  height: 70vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.carditem{
+  width: calc(90%/3);
+  min-height: 175px;
+  background: rgb(90, 90, 90);
+  text-align: center;
+  list-style: none;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.btnvermais,
+.btnretornar{
+  position: absolute;
+  bottom: 10vh;
+  width: 100px;
+  min-height: 35px;
+}
+
+.btnretornar{
+  bottom: 5vh;
+}
