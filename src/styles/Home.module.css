@@ -25,12 +25,23 @@
 
 .carditem{
   width: calc(90%/3);
-  min-height: 175px;
-  background: rgb(90, 90, 90);
+  height: 175px;
+  background: linear-gradient(to left,rgb(23, 71, 53),rgb(22, 70, 134));
   text-align: center;
   list-style: none;
   margin: 4px;
   border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carditem img{
+  position: relative;
+  width: 150px;
+  height: 175px;
 }
 
 .btnvermais,

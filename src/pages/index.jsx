@@ -33,11 +33,10 @@ export default function Home(database) {
                 ""
               } else {
                 return <div className={styles.carditem}>
+                  <img src={el.img} alt="" />
                   <li>{el.title}</li>
                 </div>
               }
-
-
 
             }) :
 
@@ -45,7 +44,7 @@ export default function Home(database) {
           }
         </div>
         <button className={styles.btnvermais} onClick={() => {
-          if (offset === database.database.length-1) { return }
+          if (offset === database.database.length - 1) { return }
           setLimit(limit + 1)
           setOffset(offset + 1)
         }}>ver mais</button>

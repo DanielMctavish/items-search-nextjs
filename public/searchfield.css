@@ -49,7 +49,14 @@
     background:none;
     border: none;
     text-align: center;
+    cursor: pointer;
+    z-index: 1;
 }
+
+.additional-inputs input:hover{
+    background: rgba(255, 255, 255, 0.445);
+}
+
 
 .searchfield form input{
     min-height: 35px;
